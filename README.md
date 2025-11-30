@@ -29,6 +29,10 @@ npm run mint:sepolia
 npm run mint:amoy
 ```
 
+## Deploy Sepolia
+
+- **SimpleERC1155**: [`0x17b787Fa5bEFB1FEeefce998e1E1bA206d2Eb50f`](https://sepolia.etherscan.io/address/0x17b787Fa5bEFB1FEeefce998e1E1bA206d2Eb50f)
+
 ## Note
 
 - Supporta solo token ID 1
