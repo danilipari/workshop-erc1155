@@ -1,0 +1,30 @@
+{
+  "name": "workshop-erc1155",
+  "version": "1.0.0",
+  "description": "Workshop ERC-1155 con Hardhat",
+  "private": true,
+  "author": "Dani Lipari",
+  "license": "MIT",
+  "keywords": ["solidity", "hardhat", "erc1155", "nft"],
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.ts --network hardhat",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia",
+    "deploy:amoy": "hardhat run scripts/deploy.ts --network amoy",
+    "deploy:mumbai": "hardhat run scripts/deploy.ts --network mumbai",
+    "mint:sepolia": "hardhat run scripts/mint.ts --network sepolia",
+    "mint:amoy": "hardhat run scripts/mint.ts --network amoy",
+    "mint:mumbai": "hardhat run scripts/mint.ts --network mumbai"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "typescript": "^5.5.0",
+    "ts-node": "^10.9.0",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
